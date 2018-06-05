@@ -32,6 +32,8 @@ spring:
     connectionProperties: druid.stat.mergeSql=true;druid.stat.slowSqlMillis=5000
 # 合并多个DruidDataSource的监控数据
     useGlobalDataSourceStat: true
+    loginUsername: yao
+    loginPassword: 123
 
 # MyBatis 配置
 mybatis:

@@ -49,12 +49,12 @@ spring:
 
 # MyBatis 配置
 mybatis:
-  first:
-    mapper-locations: classpath:mapper/*.xml
-    type-aliases-package: com.yao.model
+#  first:
+  mapper-locations: classpath:mapper*/*.xml
+  type-aliases-package: com.yao.model*
 
-  three:
-    mapper-locations: classpath:mapper2/*.xml
-    type-aliases-package: com.yao.model
+#  three:
+#    mapper-locations: classpath:mapper2/*.xml
+#    type-aliases-package: com.yao.model
 
 

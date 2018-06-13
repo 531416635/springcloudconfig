@@ -14,6 +14,12 @@ spring:
       url: jdbc:mysql://47.94.99.53:3306/xyl?useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull
       username: root
       password: succ0309
+    three:
+      type: com.alibaba.druid.pool.DruidDataSource
+      driverClassName: oracle.jdbc.driver.OracleDriver
+      url: jdbc:oracle:thin:@//58.51.91.230:1502/xzcs
+      username: APPSERVICEPAY
+      password: APPSERVICEPAY
 # 下面为连接池的补充设置，应用到上面所有数据源中
 # 初始化大小，最小，最大
     initialSize: 0
